@@ -248,6 +248,14 @@ public function ktopodkimdolkiAction()
     {
         return $this->render('default/zapomnialwol.html.twig');
     }
+    
+    /**
+ * @Route("/A-kto-z-nami.html", name="A-kto-z-nami")
+ */
+public function  testamentMojAction()
+{
+return $this->render('default/A-kto-z-nami.html.twig');
+}
 
 
 }
